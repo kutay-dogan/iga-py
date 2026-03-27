@@ -1,0 +1,22 @@
+[workspace]
+authors = ["Kutay4 <141006414+Kutay4@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "iga-py"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+numpy = ">=2.4.3,<3"
+scikit-learn = ">=1.8.0,<2"
+ipykernel = ">=7.2.0,<8"
+matplotlib = ">=3.10.8,<4"
+pyspark = ">=4.1.1,<5"
+pandas = ">=3.0.1,<4"
+polars = ">=1.39.3,<2"
+xgboost = ">=3.2.0,<4"
+optuna = ">=4.8.0,<5"
+holidays = ">=0.93,<0.94"
+duckdb = ">=1.5.1,<2"
