@@ -1,6 +1,5 @@
 import numpy as np
 
-## LEVEL 1
 arr_1d = np.array([1, 2, 3, 4, 5])
 
 arr_2d = np.array([[1, 2, 3], [4, 5, 6]])
@@ -24,7 +23,6 @@ print(a * b)  # [10, 40, 90]
 print(a ** 2) # [1, 4, 9] (Squaring every element)
 print(eye_arr)
 print(identity_arr)
-## LEVEL 2
 
 # Create a 1D array of 12 numbers and reshape it into a 3x4 matrix
 grid = np.arange(12).reshape((3, 4)) # use -1 
@@ -88,7 +86,6 @@ result = matrix + row_vector
 """
 
 
-## LEVEL 3
 scores = np.array([85, 42, 90, 33, 78])
 
 # np.where(condition, value_if_true, value_if_false)
